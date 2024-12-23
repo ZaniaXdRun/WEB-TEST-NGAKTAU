@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Whatsapp</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tester</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="upload-form">
+            <h2>Upload File</h2>
+            <form action="https://tmpfiles.org/api/v1/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <button type="submit" class="upload-button">Upload</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Test Upload By Zania Xd</p>
+        
+        <audio controls>
+         <source src="DEV.mp3" type="audio/mpeg">
+        </audio>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
